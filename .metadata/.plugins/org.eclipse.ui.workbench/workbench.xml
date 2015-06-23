@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="35" version="2.0">
+<workbenchAdvisor/>
+<window height="1008" width="1414" x="115" y="53">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.xored.fanide.ui.editor.FanEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1435042873258" focus="true" label="Workspace - Fantom">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="com.xored.fanide.ui.editor.FanEditor" name="build.fan" partName="build.fan" path="D:/lern/_phantom/test/fantom-test-global/gui/build.fan" title="build.fan" tooltip="gui/build.fan" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gui/build.fan"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="219" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="com.xored.fanide.ui.editor.FanEditor" name="demo.fan" partName="demo.fan" path="D:/lern/_phantom/test/fantom-test-global/gui/fan/fwt/demo.fan" title="demo.fan" tooltip="gui/fan/fwt/demo.fan" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gui/fan/fwt/demo.fan"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="20019" selectionTopPixel="0"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
+<view id="com.xored.fanide.ui.explorer" partName="Fantom Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors (1 item)"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.pde.runtime.LogView" partName="Error Log">
+<viewState activate="true" allSessions="true" column2="561" column3="150" column4="150" error="true" groupBy="0" info="true" limit="50" ok="true" orderType="2" orderValue="-1" show_filter_text="true" useLimit="true" warning="true"/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
+<columnWidths org.eclipse.ui.ide.completionField="40" org.eclipse.ui.ide.descriptionField="300" org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.priorityField="30" org.eclipse.ui.ide.resourceField="90"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.completionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.priorityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="com.xored.fanide.ui.editor.FanEditor" activePerspective="com.xored.fanide.ui.FanPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.xored.fanide.internal.ui.FanPerspective" id="com.xored.fanide.ui.FanPerspective" label="Fantom"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="com.xored.fanide.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="com.xored.fanide.ui.explorer"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<new_wizard_action id="com.xored.fanide.ui.internal.wizards.newproject"/>
+<new_wizard_action id="com.xored.fanide.ui.internal.wizards.newclass"/>
+<new_wizard_action id="com.xored.fanide.ui.internal.wizards.newmixin"/>
+<new_wizard_action id="com.xored.fanide.ui.internal.wizards.newenum"/>
+<new_wizard_action id="com.xored.fanide.ui.internal.wizards.newscript"/>
+<new_wizard_action id="com.xored.fanide.ui.internal.wizards.newfolder"/>
+<new_wizard_action id="com.xored.fanide.ui.internal.wizards.newpackage"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="com.xored.fanide.ui.explorer"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.pde.runtime.LogView" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.ProblemView" ratio="0.29944134"/>
+<view id="org.eclipse.ui.views.TaskList" ratio="0.29944134"/>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.29944134"/>
+<view id="org.eclipse.pde.runtime.LogView" ratio="0.49944136"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@56c492c8" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.2993421"/>
+<view id="org.eclipse.ui.views.PropertySheet" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="com.xored.fanide.ui.explorer" appearance="2" expanded="2">
+<page content="com.xored.fanide.ui.explorer" label="Fantom Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="756" ratioRight="252" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.19940476" ratioLeft="201" ratioRight="807" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.73206276" ratioLeft="653" ratioRight="239" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.pde.runtime.LogView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@56c492c8" ratio="0.74969023" ratioLeft="605" ratioRight="202" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@4f17cb47" ratio="0.4995074" ratioLeft="507" ratioRight="508" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xored.fanide.ui.editor.FanEditor" path="/gui/fan/fwt/demo.fan"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xored.fanide.ui.editor.FanEditor" path="/gui/fan/adder/adderWindow.fan"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xored.fanide.ui.editor.FanEditor" path="/gui/fan/icons/build.fan"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xored.fanide.ui.editor.FanEditor" path="/icons/build.fan"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xored.fanide.ui.editor.FanEditor" path="/icons/fan/main.fan"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xored.fanide.ui.editor.FanEditor" path="/gui/build.fan"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/gui/fan/icons.pod"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xored.fanide.ui.editor.FanEditor" path="/gui/fan/fwt/demo.fan"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xored.fanide.ui.editor.FanEditor" path="/gui/fan/fwt/clock.fan"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xored.fanide.ui.editor.FanEditor" path="/gui/fan/adder/adderWindow.fan"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xored.fanide.ui.editor.FanEditor" path="/gui/fan/Main.fan"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/actors/заметки.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xored.fanide.ui.editor.FanEditor" path="/icons/build.fan"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xored.fanide.ui.editor.FanEditor" path="/icons/fan/main.fan"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xored.fanide.ui.editor.FanEditor" path="/gui/fan/Main.fan"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xored.fanide.ui.editor.FanEditor" path="/gui/build.fan"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xored.fanide.ui.editor.FanEditor" path="/gui/fan/fwt/demo.fan"/>
+</editors>
+<item historyLabel="demo.fan" index="0">
+<position info="not_deleted" x="8073" y="11"/>
+</item>
+<item historyLabel="demo.fan" index="0">
+<position info="not_deleted" x="8190" y="0"/>
+</item>
+<item historyLabel="demo.fan" index="0">
+<position info="not_deleted" x="20015" y="13"/>
+</item>
+<item historyLabel="build.fan" index="2">
+<position/>
+</item>
+<item historyLabel="build.fan" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="build.fan" index="2">
+<position/>
+</item>
+<item historyLabel="build.fan" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="build.fan" index="2">
+<position/>
+</item>
+<item historyLabel="build.fan" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="build.fan" index="2">
+<position/>
+</item>
+<item historyLabel="build.fan" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="demo.fan" index="0">
+<position info="not_deleted" x="20015" y="13"/>
+</item>
+<item historyLabel="build.fan" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="build.fan" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="build.fan" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="build.fan" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.fan" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="adderWindow.fan" index="1">
+<position info="not_deleted" x="90" y="0"/>
+</item>
+<item historyLabel="demo.fan" index="0">
+<position info="not_deleted" x="20015" y="13"/>
+</item>
+<item historyLabel="adderWindow.fan" index="1">
+<position info="not_deleted" x="360" y="0"/>
+</item>
+<item historyLabel="build.fan" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="build.fan" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="build.fan" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="build.fan" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="build.fan" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="build.fan" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="build.fan" index="5">
+<position info="not_deleted" x="243" y="0"/>
+</item>
+<item historyLabel="icons.pod" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="build.fan" index="5">
+<position info="not_deleted" x="231" y="0"/>
+</item>
+<item historyLabel="demo.fan" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="build.fan" index="5">
+<position info="not_deleted" x="59" y="0"/>
+</item>
+<item historyLabel="demo.fan" index="7">
+<position info="not_deleted" x="555" y="0"/>
+</item>
+<item historyLabel="build.fan" index="5">
+<position info="not_deleted" x="255" y="0"/>
+</item>
+<item historyLabel="build.fan" index="5">
+<position info="not_deleted" x="255" y="0"/>
+</item>
+<item historyLabel="clock.fan" index="8">
+<position info="not_deleted" x="38" y="20"/>
+</item>
+<item historyLabel="demo.fan" index="7">
+<position info="not_deleted" x="19074" y="0"/>
+</item>
+<item historyLabel="clock.fan" index="8">
+<position info="not_deleted" x="38" y="20"/>
+</item>
+<item historyLabel="adderWindow.fan" index="9">
+<position info="not_deleted" x="341" y="0"/>
+</item>
+<item historyLabel="demo.fan" index="7">
+<position info="not_deleted" x="19074" y="0"/>
+</item>
+<item historyLabel="adderWindow.fan" index="9">
+<position info="not_deleted" x="341" y="0"/>
+</item>
+<item historyLabel="Main.fan" index="10">
+<position info="not_deleted" x="70" y="0"/>
+</item>
+<item historyLabel="demo.fan" index="7">
+<position info="not_deleted" x="19074" y="0"/>
+</item>
+<item historyLabel="Main.fan" index="10">
+<position info="not_deleted" x="70" y="0"/>
+</item>
+<item historyLabel="заметки.txt" index="11">
+<position info="not_deleted" x="62" y="27"/>
+</item>
+<item historyLabel="demo.fan" index="7">
+<position info="not_deleted" x="1392" y="0"/>
+</item>
+<item historyLabel="build.fan" index="12"/>
+<item historyLabel="main.fan" index="13"/>
+<item historyLabel="Main.fan" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="build.fan" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="demo.fan" index="16">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@56c492c8"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xored.fanide.ui.editor.FanEditor" name="demo.fan" tooltip="gui/fan/fwt/demo.fan">
+<persistable path="/gui/fan/fwt/demo.fan"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xored.fanide.ui.editor.FanEditor" name="build.fan" tooltip="gui/build.fan">
+<persistable path="/gui/build.fan"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xored.fanide.ui.editor.FanEditor" name="Main.fan" tooltip="gui/fan/Main.fan">
+<persistable path="/gui/fan/Main.fan"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="icons.pod" tooltip="gui/fan/icons.pod">
+<persistable path="/gui/fan/icons.pod"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xored.fanide.ui.editor.FanEditor" name="main.fan" tooltip="icons/fan/main.fan">
+<persistable path="/icons/fan/main.fan"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xored.fanide.ui.editor.FanEditor" name="build.fan" tooltip="gui/fan/icons/build.fan">
+<persistable path="/gui/fan/icons/build.fan"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xored.fanide.ui.editor.FanEditor" name="build.fan" tooltip="icons/build.fan">
+<persistable path="/icons/build.fan"/>
+</file>
+<file factoryID="org.eclipse.dltk.ui.ExternalSourceModuleEditorInputFactory" id="com.xored.fanide.ui.editor.FanEditor" name="Widget.fcode" tooltip="fwt.pod  - Widget.fcode">
+<persistable elementID="=actors}Pod\@fwt.pod}}Widget.fcode"/>
+</file>
+<file factoryID="org.eclipse.dltk.ui.ExternalSourceModuleEditorInputFactory" id="com.xored.fanide.ui.editor.FanEditor" name="Pane.fcode" tooltip="fwt.pod  - Pane.fcode">
+<persistable elementID="=actors}Pod\@fwt.pod}}Pane.fcode"/>
+</file>
+<file factoryID="org.eclipse.dltk.ui.ExternalSourceModuleEditorInputFactory" id="com.xored.fanide.ui.editor.FanEditor" name="ContentPane.fcode" tooltip="fwt.pod  - ContentPane.fcode">
+<persistable elementID="=actors}Pod\@fwt.pod}}ContentPane.fcode"/>
+</file>
+<file factoryID="org.eclipse.dltk.ui.ExternalSourceModuleEditorInputFactory" id="com.xored.fanide.ui.editor.FanEditor" name="Window.fcode" tooltip="fwt.pod  - Window.fcode">
+<persistable elementID="=actors}Pod\@fwt.pod}}Window.fcode"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="заметки.txt" tooltip="actors/заметки.txt">
+<persistable path="/actors/заметки.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xored.fanide.ui.editor.FanEditor" name="adderWindow.fan" tooltip="gui/fan/adder/adderWindow.fan">
+<persistable path="/gui/fan/adder/adderWindow.fan"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xored.fanide.ui.editor.FanEditor" name="clock.fan" tooltip="gui/fan/fwt/clock.fan">
+<persistable path="/gui/fan/fwt/clock.fan"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xored.fanide.ui.editor.FanEditor" name="Main.fan" tooltip="actors/fan/Main.fan">
+<persistable path="/actors/fan/Main.fan"/>
+</file>
+</mruList>
+</workbench>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>.org.eclipse.jdt.core.external.folders</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>.link12</name>
+			<type>2</type>
+			<location>D:/lern/_phantom/fantom-1.0.67/src/sys/java</location>
+		</link>
+		<link>
+			<name>.link13</name>
+			<type>2</type>
+			<location>D:/lern/_phantom/fantom-1.0.67/src/concurrent/java</location>
+		</link>
+		<link>
+			<name>.link14</name>
+			<type>2</type>
+			<location>D:/lern/_phantom/fantom-1.0.67/src/gfx/java</location>
+		</link>
+		<link>
+			<name>.link15</name>
+			<type>2</type>
+			<location>D:/lern/_phantom/fantom-1.0.67/src/fwt/java</location>
+		</link>
+	</linkedResources>
+</projectDescription>

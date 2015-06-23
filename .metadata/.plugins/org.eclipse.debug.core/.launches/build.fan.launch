@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.xored.fanide.launching.FanLaunchConfigurationType">
+<stringAttribute key="fanMainClass" value="D:/lern/_phantom/test/fantom-test-global/icons/build.fan"/>
+<stringAttribute key="nature" value="com.xored.fanide.core.nature"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/icons/build.fan"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="project" value="icons"/>
+<booleanAttribute key="useClassOnly" value="true"/>
+</launchConfiguration>

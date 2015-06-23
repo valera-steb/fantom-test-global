@@ -8,10 +8,10 @@ class Main
   
 	static Void main(Str[] args)
 	{
-    a := ActorWithContext(pool)
-    a.send("msg1")
-    a.send("msg2")
+    //open("st")
+    runWindows()
 	}
+  
   
   static Void open(Str inText){
     Window{
@@ -19,6 +19,7 @@ class Main
       Label{text = inText},
     }.open    
   }
+  
   
   static Void failed(){
     
@@ -32,6 +33,7 @@ class Main
     a.send("hi")
   }
   
+  
   static Void runWindows(){
     hi := WindowActor(pool)
     by := WindowActor(pool)
@@ -42,5 +44,11 @@ class Main
     hi.send("hi again")
     
     open("end")
+  }
+  
+  static Void sendMsg(){
+    a := ActorWithContext(pool)
+    a.send("msg1")
+    a.send("msg2")
   }
 }

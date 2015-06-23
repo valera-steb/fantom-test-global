@@ -1,0 +1,132 @@
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2015-06-23 13:28:34.566
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.dltk.core.ModelException: Problems encountered while deleting resources.
+	at org.eclipse.dltk.internal.core.BatchOperation.executeOperation(BatchOperation.java:47)
+	at org.eclipse.dltk.internal.core.ModelOperation.run(ModelOperation.java:698)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.dltk.core.DLTKCore.run(DLTKCore.java:1416)
+	at org.eclipse.dltk.core.DLTKCore.run(DLTKCore.java:1367)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:87)
+	at org.eclipse.dltk.internal.corext.refactoring.reorg.DeleteChangeCreator$1.perform(DeleteChangeCreator.java:58)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not delete 'D:\lern\_phantom\test\fantom-test-global\gui\fan\icons.pod'.
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:125)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:304)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:785)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1931)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:780)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:739)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.DeleteFileChange.doDelete(DeleteFileChange.java:75)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.AbstractDeleteChange.perform(AbstractDeleteChange.java:36)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:84)
+	at org.eclipse.dltk.internal.core.BatchOperation.executeOperation(BatchOperation.java:36)
+	at org.eclipse.dltk.internal.core.ModelOperation.run(ModelOperation.java:698)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.dltk.core.DLTKCore.run(DLTKCore.java:1416)
+	at org.eclipse.dltk.core.DLTKCore.run(DLTKCore.java:1367)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:87)
+	at org.eclipse.dltk.internal.corext.refactoring.reorg.DeleteChangeCreator$1.perform(DeleteChangeCreator.java:58)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not delete: D:\lern\_phantom\test\fantom-test-global\gui\fan\icons.pod.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2015-06-23 13:28:34.572
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2015-06-23 13:28:34.572
+!MESSAGE Could not delete 'D:\lern\_phantom\test\fantom-test-global\gui\fan\icons.pod'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:125)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:304)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:785)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1931)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:780)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:739)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.DeleteFileChange.doDelete(DeleteFileChange.java:75)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.AbstractDeleteChange.perform(AbstractDeleteChange.java:36)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:84)
+	at org.eclipse.dltk.internal.core.BatchOperation.executeOperation(BatchOperation.java:36)
+	at org.eclipse.dltk.internal.core.ModelOperation.run(ModelOperation.java:698)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.dltk.core.DLTKCore.run(DLTKCore.java:1416)
+	at org.eclipse.dltk.core.DLTKCore.run(DLTKCore.java:1367)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:87)
+	at org.eclipse.dltk.internal.corext.refactoring.reorg.DeleteChangeCreator$1.perform(DeleteChangeCreator.java:58)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not delete: D:\lern\_phantom\test\fantom-test-global\gui\fan\icons.pod.
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2015-06-23 13:28:34.572
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2015-06-23 13:28:34.572
+!MESSAGE Could not delete: D:\lern\_phantom\test\fantom-test-global\gui\fan\icons.pod.
+
+!ENTRY org.eclipse.core.resources 4 273 2015-06-23 13:28:34.573
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2015-06-23 13:28:34.574
+!MESSAGE Could not delete 'D:\lern\_phantom\test\fantom-test-global\gui\fan\icons.pod'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:125)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:304)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:785)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1931)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:780)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:739)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.DeleteFileChange.doDelete(DeleteFileChange.java:75)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.AbstractDeleteChange.perform(AbstractDeleteChange.java:36)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:84)
+	at org.eclipse.dltk.internal.core.BatchOperation.executeOperation(BatchOperation.java:36)
+	at org.eclipse.dltk.internal.core.ModelOperation.run(ModelOperation.java:698)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.dltk.core.DLTKCore.run(DLTKCore.java:1416)
+	at org.eclipse.dltk.core.DLTKCore.run(DLTKCore.java:1367)
+	at org.eclipse.dltk.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:87)
+	at org.eclipse.dltk.internal.corext.refactoring.reorg.DeleteChangeCreator$1.perform(DeleteChangeCreator.java:58)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not delete: D:\lern\_phantom\test\fantom-test-global\gui\fan\icons.pod.
+!SUBENTRY 2 org.eclipse.core.filesystem 4 273 2015-06-23 13:28:34.574
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2015-06-23 13:28:34.574
+!MESSAGE Could not delete: D:\lern\_phantom\test\fantom-test-global\gui\fan\icons.pod.

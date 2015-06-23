@@ -1,0 +1,2 @@
+D:\lern\_phantom\test\fantom-test-global\.metadata\.plugins\org.eclipse.dltk.core\4071352734.index
+D:\lern\_phantom\test\fantom-test-global\.metadata\.plugins\org.eclipse.dltk.core\3396388685.index
